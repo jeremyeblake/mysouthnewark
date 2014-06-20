@@ -6,6 +6,7 @@ event: {}
 image: /public/images/springcleanup.jpg
 published: true
 event_date: "May 5, 201"
+post_smallimg: springcleanup.jpg
 ---
 
 Volunteers are asked to arrive at 8:30 a.m. Clean up assignments will be given to teams of volunteers. Each team will go weed, cut grass, pick up trash, etc. Then lunch will be served to volunteers at Noon.
