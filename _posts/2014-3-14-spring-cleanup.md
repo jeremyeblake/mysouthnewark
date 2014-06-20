@@ -13,5 +13,3 @@ Volunteers are asked to arrive at 8:30 a.m. Clean up assignments will be given t
 
 ##Update:
 <iframe width="560" height="315" src="//www.youtube.com/embed/xaFgJ3hfJ5g" frameborder="0" allowfullscreen></iframe>
-
-## Date of event: 4/5/2014
