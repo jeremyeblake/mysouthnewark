@@ -1,7 +1,7 @@
 ---
 layout: blog
 category: blog
-published: false
+published: true
 title: 3rd Annual Summer Picnic
 carousel: 
   - image: "/public/images/picnic-2014-1.jpg"
