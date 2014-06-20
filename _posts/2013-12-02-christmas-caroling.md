@@ -3,7 +3,7 @@ layout: blog
 
 title: "Christmas Caroling"
 event: 2013-12-18
-image: /public/images/posts/christmascarol-2013.jpg
+image: /public/images/christmascarol-2013.jpg
 published: true
 ---
 

@@ -3,7 +3,7 @@ layout: blog
 
 title: "Neighborhood Spring Clean Up"
 event: 2014-5-5
-image: /public/images/posts/springcleanup.jpg
+image: /public/images/springcleanup.jpg
 published: true
 ---
 

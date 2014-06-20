@@ -3,7 +3,7 @@ layout: blog
 
 title: "Christmas Party"
 event: 2013-12-19
-image: /public/images/posts/christmas.jpg
+image: /public/images/christmas.jpg
 published: true
 ---
 

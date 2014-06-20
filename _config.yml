@@ -19,14 +19,13 @@ prose:
           element: "text"
           label: "Title"
           value: ""
-      - name: "splash"
+      - name: "Small Image"
         field:
           element: "text"
-          label: "Splash image"
-          value: ""
-
-
-
+          label: "postsmallimg"
+          help: "Once you have uploaded the image, write the name of the image. Convention : imagename.jpg"
+          placeholder: "imagename.jpg"
+          type: "text"
     _posts/static:
       - name: "layout"
         field:
