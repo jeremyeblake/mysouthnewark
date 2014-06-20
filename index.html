@@ -43,9 +43,9 @@ layout: default
 
     <article class="content_wrap">
 		<div class="content">
-
-			<span class="time">latest news or event</span>
-
+			{% if post.event_date %}
+				<span class="time">Date of event: {{ post.event_date }}</span>
+			{% endif %}
 			<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 			<p>{{ post.excerpt | strip_html }}</p>
 
@@ -70,11 +70,11 @@ layout: default
 					<div class="media" style="background-image:url('{{ site.baseurl }}/public/images/{{ post.post_smallimg }}');"></div>
 
 					<div class="content">
+						{% if post.event_date %}
+							<span class="time">Date of event: {{ post.event_date }}</span>
+						{% endif %}
 						<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 						<p>{{ post.excerpt | strip_html | truncatewords:20 }}</p>
-						{% if post.event_date %}
-						<span class="time">Date of event: {{ post.event_date }}</span>
-						{% endif %}
 					</div>
 
 					<div class="meta">
