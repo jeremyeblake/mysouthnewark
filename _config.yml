@@ -32,6 +32,13 @@ prose:
           help: "Once you have uploaded the image (400x300), write the name of the image. Convention : imagename.jpg"
           placeholder: "imagename.jpg"
           type: "text"
+      - name: "post_featuredimg1"
+        field:
+          element: "text"
+          label: "First Carousel Image"
+          help: "Once you have uploaded the image (720x640), write the name of the image. Convention : imagename.jpg"
+          placeholder: "imagename.jpg"
+          type: "text"
     _posts/static:
       - name: "layout"
         field:
