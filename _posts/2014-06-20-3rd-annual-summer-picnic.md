@@ -9,6 +9,7 @@ carousel:
   - image: "/public/images/picnic-2014-3.jpg"
 post_smallimg: SouthNewarkPicnic.jpg
 image: /public/images/SouthNewarkPicnic.jpg
+event_date: "June 14, 2014"
 ---
 
 The South Newark Civic Association will be hosting our 3rd Annual Community Picnic planned for June 14, 2014 from noon to 2:00 PM at the Moose Lodge Shelter House, 235 W. National Drive, Newark. Everyone is welcome and please bring a side dish to share!
