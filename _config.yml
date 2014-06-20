@@ -22,8 +22,8 @@ prose:
       - name: "Small Image"
         field:
           element: "text"
-          label: "postsmallimg"
-          help: "Once you have uploaded the image, write the name of the image. Convention : imagename.jpg"
+          label: "Small Post Image"
+          help: "Once you have uploaded the image (400x300), write the name of the image. Convention : imagename.jpg"
           placeholder: "imagename.jpg"
           type: "text"
     _posts/static:
