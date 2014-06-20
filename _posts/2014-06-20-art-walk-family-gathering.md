@@ -3,9 +3,10 @@ layout: blog
 category: blog
 published: true
 title: Art Walk Family Gathering
-post_featuredimg1: SouthNewarkWorks1.jpg
-post_featuredimg2: SouthNewarkWorks2.jpg
-post_featuredimg3: SouthNewarkWorks3.jpg
+carousel:
+ - image: /public/images/SouthNewarkWorks1.jpg
+ - image: /public/images/SouthNewarkWorks2.jpg
+ - image: /public/images/SouthNewarkWorks3.jpg
 event_date: "July 25, 2014"
 ---
 
