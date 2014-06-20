@@ -72,8 +72,8 @@ layout: default
 					<div class="content">
 						<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 						<p>{{ post.excerpt | strip_html | truncatewords:20 }}</p>
-						{% if post.event %}
-						<span class="time">Date of event: {{ post.event | date:'%b %d %Y' }}</span>
+						{% if post.event_date %}
+						<span class="time">Date of event: {{ post.event_date }}</span>
 						{% endif %}
 					</div>
 

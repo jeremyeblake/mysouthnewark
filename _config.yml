@@ -19,7 +19,13 @@ prose:
           element: "text"
           label: "Title"
           value: ""
-      - name: "Small Image"
+      - name: "event_date"
+        field:
+          element: "text"
+          label: "Event Date"
+          placeholder: "June 18, 2014"
+          type: "text"
+      - name: "post_smallimg"
         field:
           element: "text"
           label: "Small Post Image"
