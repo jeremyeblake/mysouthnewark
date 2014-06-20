@@ -850,6 +850,7 @@ footer#worlds_end {
   float: left;
   width: 58.33333%;
   padding: 0 20px;
+  float: right;
   padding: 0; }
   .featured-panel .volunteer-signup form, .content-panel .volunteer-signup form, .content-panel_full .volunteer-signup form {
     margin-bottom: 0; }
