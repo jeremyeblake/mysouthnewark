@@ -39,6 +39,20 @@ prose:
           help: "Once you have uploaded the image (720x640), write the name of the image. Convention : imagename.jpg"
           placeholder: "imagename.jpg"
           type: "text"
+      - name: "post_featuredimg2"
+        field:
+          element: "text"
+          label: "Second Carousel Image"
+          help: "Once you have uploaded the image (720x640), write the name of the image. Convention : imagename.jpg"
+          placeholder: "imagename.jpg"
+          type: "text"
+      - name: "post_featuredimg3"
+        field:
+          element: "text"
+          label: "Third Carousel Image"
+          help: "Once you have uploaded the image (720x640), write the name of the image. Convention : imagename.jpg"
+          placeholder: "imagename.jpg"
+          type: "text"
     _posts/static:
       - name: "layout"
         field:
