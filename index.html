@@ -1,0 +1,91 @@
+---
+layout: default
+---
+
+<section class="featured-panel">
+
+{% for post in site.posts limit:1 %}
+	{% assign post = feature %}
+
+	<div class="media slider">
+	
+	{% if post.carousel %}
+      <ul class="slides">
+      	 {% for slides in post.carousel %}
+      	<li>
+       		<img src="{{ slides.image }}">
+      	</li>
+      	 {% endfor %}
+      </ul>
+      {% endif %}
+
+    </div>
+
+    <article class="content_wrap">
+		<div class="content">
+
+			<span class="time">latest news & event</span>
+
+			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+			<p>{{ post.excerpt | strip_html | truncatewords:30 }}</p>
+
+		</div>
+	</article>
+{% endfor %}
+
+	<aside class="volunteer-signup">
+	<!-- Begin MailChimp Signup Form -->
+	<div id="mc_embed_signup">
+	<form action="http://mysouthnewark.us8.list-manage.com/subscribe/post?u=2583325f2406101abeee288f9&amp;id=9f934161e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		
+	<div class="mc-field-group">
+		<!--<label for="mce-EMAIL">Sign up to volunteer by entering your email address.</label>-->
+		<input type="email" value="" name="EMAIL" class="required email signup_giant" id="mce-EMAIL" placeholder="enter your email address to volunteer">
+	</div>
+		<div id="mce-responses" class="clear">
+			<div class="response" id="mce-error-response" style="display:none"></div>
+			<div class="response" id="mce-success-response" style="display:none"></div>
+		</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+	    <div style="position: absolute; left: -5000px;"><input type="text" name="b_2583325f2406101abeee288f9_9f934161e4" tabindex="-1" value=""></div>
+	    <div class="clear"><input type="submit" value="Signup and Volunteer" name="subscribe" id="mc-embedded-subscribe" class="button email-form_submit"></div>
+	</form>
+	</div>
+	<!--End mc_embed_signup-->
+	</aside>
+
+</section>
+
+<div class="container push_both">
+
+<section class="news-grid">
+
+	<!-- <h2 class="centered">News & Events</h2> -->
+
+	    {% for post in site.posts limit:3 %}
+
+			<article class="news-panel_wrap">
+				<div class="news-panel">
+					{% assign post = article %}
+
+					<div class="media" style="background-image:url('{{ post.image }}');"></div>
+
+					<div class="content">
+						<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+						<p>{{ post.excerpt | strip_html | truncatewords:20 }}</p>
+						{% if post.event %}
+						<span class="time">Date of event: {{ post.event | date:'%b %d %Y' }}</span>
+						{% endif %}
+					</div>
+
+					<div class="meta">
+						<a href="{{ post.url }}" class="read">Read</a>
+					</div>
+				</div>
+			</article>
+
+	    {% endfor %}
+
+
+</section>
+
+</div>
