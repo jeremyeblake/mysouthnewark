@@ -13,7 +13,7 @@ layout: default
       <ul class="slides">
       	 {% for slides in post.carousel %}
       	<li>
-       		<img src="{{ slides.image }}">
+       		<img src="{{ site.baseurl }}{{ slides.image }}">
       	</li>
       	 {% endfor %}
       </ul>
@@ -24,7 +24,7 @@ layout: default
     <article class="content_wrap">
 		<div class="content">
 
-			<span class="time">latest news & event</span>
+			<span class="time">latest news or event</span>
 
 			<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 			<p>{{ post.excerpt | strip_html | truncatewords:30 }}</p>
