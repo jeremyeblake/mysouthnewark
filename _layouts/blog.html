@@ -3,14 +3,18 @@ layout: default
 section: blog
 ---
 <div class="section-thesis">
-  <h1><a href="{{ site.baseurl }}/news">&larr; Back to News & Events</a></h1>
+  <h2><a href="{{ site.baseurl }}/news">&larr; Back to News & Events</a></h2>
 </div>
 
 <div class='container push_both'>
 
   <article>
 
-    <h1>{{page.title}}</h1><span class='time'>{{page.date | date:"%b %d"}}</span>
+	{% if page.event_date %}
+	<span class="time">Date of event: {{ page.event_date }}</span>
+	{% endif %}
+
+    <h1>{{page.title}}</h1>
 
     <div class="article-content push_bottom">
       {{content}}
