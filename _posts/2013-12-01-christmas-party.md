@@ -1,10 +1,11 @@
 ---
 layout: blog
-
-title: "Christmas Party"
-event: 2013-12-19
+category: blog
+title: Christmas Party
+event: {}
 image: /public/images/christmas.jpg
 published: true
+post_smallimg: christmas.jpg
 ---
 
 A great way to meet the local community, SNCA provided food and fun for anyone who wanted to join in the Christmas fellowship.
