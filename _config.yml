@@ -1,4 +1,4 @@
-baseurl: mysouthnewark.org
+baseurl: 
 permalink: pretty
 markdown: rdiscount
 prose:
