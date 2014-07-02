@@ -5,7 +5,7 @@ title: Neighborhood Spring Clean Up
 event: {}
 image: /public/images/springcleanup.jpg
 published: true
-event_date: "May 5, 201"
+event_date: "May 5, 2013"
 post_smallimg: springcleanup.jpg
 ---
 
