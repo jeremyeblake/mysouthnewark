@@ -24,7 +24,7 @@ layout: default
 	<!--End mc_embed_signup-->
 </aside>
 
-{% for post in site.posts limit:1 %}
+{% for post in site.categories.news limit:1 %}
 	{% assign post = feature %}
 
 	<div class="media slider">
@@ -61,7 +61,7 @@ layout: default
 
 	<!-- <h2 class="centered">News & Events</h2> -->
 
-	    {% for post in site.posts limit:3 %}
+	    {% for post in site.categories.news limit:3 %}
 
 			<article class="news-panel_wrap">
 				<div class="news-panel">
