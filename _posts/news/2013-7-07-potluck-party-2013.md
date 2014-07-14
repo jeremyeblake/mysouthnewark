@@ -9,6 +9,7 @@ post_smallimg: "TCE-SNCA.jpg"
 ---
 
 ![TCE-SNCA.jpg](/public/images/TCE-SNCA.jpg)
+
 This is an open informational meeting to hear the results of TCE testing from the basements of resident's homes.
 
 Dr. Tessa Carrel and her students will be reporting their findings from testing the air in the basement of neighbors on Maholm Street, S. Williams Street, S. Pine Street and James Street.
