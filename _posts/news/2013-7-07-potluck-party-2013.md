@@ -1,6 +1,6 @@
 ---
 layout: blog
-
+category: news
 title: "Potluck Party"
 event: 2013-7-26
 published: true

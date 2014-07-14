@@ -1,11 +1,11 @@
 ---
 layout: blog
-category: blog
+category: news
 title: Neighborhood Spring Clean Up
 event: {}
 image: /public/images/springcleanup.jpg
 published: true
-event_date: "May 5, 2013"
+event_date: "May 5, 201"
 post_smallimg: springcleanup.jpg
 ---
 
