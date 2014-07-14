@@ -33,7 +33,7 @@ prose:
           placeholder: "imagename.jpg"
           type: "text"
     _posts/heritage:
-      - name: "post_heritage_img"
+      - name: "heritage_img"
       field:
           element: "text"
           label: "Small Post Image"
@@ -42,7 +42,7 @@ prose:
           type: "text"
 
     _posts/about:
-      - name: "post_member_img"
+      - name: "member_img"
       field:
           element: "text"
           label: "Small Post Image"
