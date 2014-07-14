@@ -21,6 +21,25 @@ layout: default
 
 </article>
 
+{% for post in site.categories.members %}
+<article class="content-panel_full">
+
+<div class="content_wrap_nomedia">
+		<div class="content">
+			<h1 class="h2"> {{ post.title }}</h1>
+				<img class="left img" src="{{ site.baseurl }}/public/images/about/{{ post.member_img }}" width="150" height="150"/>	
+			<p>{{ post.content | strip_html }}</p>
+		</div>
+	</div>
+
+</article>
+
+{% endfor %}
+
+
+
+
+<!-- 
 <article class="content-panel_full">
 
 
@@ -85,3 +104,4 @@ layout: default
 
 
 </article>
+-->

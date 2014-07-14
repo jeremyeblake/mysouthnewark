@@ -1,6 +1,6 @@
 ---
 layout: blog
-category: blog
+category: news
 title: Neighborhood Spring Clean Up
 event: {}
 image: /public/images/springcleanup.jpg

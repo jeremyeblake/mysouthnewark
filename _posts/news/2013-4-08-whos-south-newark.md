@@ -1,6 +1,6 @@
 ---
 layout: blog
-
+category: news
 title: "Who's South Newark"
 event: 2013-4-08
 published: true

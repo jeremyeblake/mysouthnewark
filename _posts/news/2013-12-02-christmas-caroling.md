@@ -1,6 +1,6 @@
 ---
 layout: blog
-category: blog
+category: news
 title: Christmas Caroling
 event: {}
 image: "/public/images/christmascarol-2013.jpg"
