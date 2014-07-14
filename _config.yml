@@ -9,7 +9,7 @@ prose:
       - name: "category"
         field:
           element: "hidden"
-          value: "blog"
+          value: "news"
       - name: "layout"
         field:
           element: "hidden"
@@ -34,6 +34,10 @@ prose:
           type: "text"
     metadata:
     _posts/members:
+    - name: "category"
+        field:
+          element: "hidden"
+          value: "members"
       - name: "member_img"
         field:
           element: "text"
@@ -42,7 +46,11 @@ prose:
           placeholder: "imagename.jpg"
           type: "text"
     metadata:
-    _posts/members:
+    _posts/heritage:
+     - name: "category"
+        field:
+          element: "hidden"
+          value: "heritage"
       - name: "heritage_img"
         field:
           element: "text"
