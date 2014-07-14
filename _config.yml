@@ -32,20 +32,18 @@ prose:
           help: "Once you have uploaded the image (400x300), write the name of the image. Convention : imagename.jpg"
           placeholder: "imagename.jpg"
           type: "text"
-    _posts/heritage:
-      - name: "post_heritage_img"
-      field:
+    _posts/static:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
           element: "text"
-          label: "Small Post Image"
-          help: "Once you have uploaded the image (400x300), write the name of the image. Convention : imagename.jpg"
-          placeholder: "imagename.jpg"
-          type: "text"
-
-    _posts/about:
-      - name: "post_member_img"
-      field:
+          label: "Title"
+          value: ""
+      - name: "permalink"
+        field:
           element: "text"
-          label: "Small Post Image"
-          help: "Once you have uploaded the image (400x300), write the name of the image. Convention : imagename.jpg"
-          placeholder: "imagename.jpg"
-          type: "text"
+          label: "Permalink"
+          value: ""

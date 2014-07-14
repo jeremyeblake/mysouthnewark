@@ -1,6 +1,6 @@
 ---
 layout: blog
-category: news
+category: blog
 title: Together We Can Make a Difference
 image: /public/images/denison01.jpg
 published: true

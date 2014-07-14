@@ -1,6 +1,6 @@
 ---
 layout: blog
-category: news
+category: blog
 published: true
 title: 3rd Annual Summer Picnic
 carousel: 

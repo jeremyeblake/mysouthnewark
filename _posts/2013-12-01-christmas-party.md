@@ -1,6 +1,6 @@
 ---
 layout: blog
-category: news
+category: blog
 title: Christmas Party
 event: {}
 image: /public/images/christmas.jpg

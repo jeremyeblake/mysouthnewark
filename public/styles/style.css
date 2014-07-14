@@ -920,8 +920,7 @@ footer#worlds_end {
     min-height: 300px; }
 
 .content-panel .content_wrap, .content-panel_full .content_wrap {
-  border-left: 2px solid #dddddd;
-  border-right: 2px solid #dddddd; }
+  border-left: 2px solid #dddddd; }
 
 .content-panel_full {
   -webkit-box-sizing: border-box;
@@ -956,9 +955,6 @@ footer#worlds_end {
   border-left-color: #fff;
   border-width: 30px;
   margin-top: -30px; }
-
-.heritage .content-panel_full:nth-child(even) .media {
-  float: right; }
 
 .news-grid {
   -webkit-box-sizing: border-box;
