@@ -5,7 +5,7 @@ prose:
   rooturl: '_posts'
   media: 'public/images'
   metadata:
-    _posts:
+    _posts/news:
       - name: "category"
         field:
           element: "hidden"
