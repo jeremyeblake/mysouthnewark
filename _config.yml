@@ -32,3 +32,21 @@ prose:
           help: "Once you have uploaded the image (400x300), write the name of the image. Convention : imagename.jpg"
           placeholder: "imagename.jpg"
           type: "text"
+    metadata:
+    _posts/members:
+      - name: "member_img"
+        field:
+          element: "text"
+          label: "Member Image"
+          help: "Once you have uploaded the image (300x300), write the name of the image. Convention : imagename.jpg"
+          placeholder: "imagename.jpg"
+          type: "text"
+    metadata:
+    _posts/members:
+      - name: "heritage_img"
+        field:
+          element: "text"
+          label: "Image"
+          help: "Once you have uploaded the image (600x400), write the name of the image. Convention : imagename.jpg"
+          placeholder: "imagename.jpg"
+          type: "text"
