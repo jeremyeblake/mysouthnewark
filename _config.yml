@@ -34,7 +34,7 @@ prose:
           type: "text"
     metadata:
     _posts/members:
-    - name: "category"
+      - name: "category"
         field:
           element: "hidden"
           value: "members"
@@ -47,7 +47,7 @@ prose:
           type: "text"
     metadata:
     _posts/heritage:
-     - name: "category"
+      - name: "category"
         field:
           element: "hidden"
           value: "heritage"
