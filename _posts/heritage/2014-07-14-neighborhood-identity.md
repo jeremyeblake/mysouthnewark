@@ -1,6 +1,6 @@
 ---
 category: heritage
-published: true
+published: false
 title: Neighborhood Identity
 heritage_img: "SNCA-MAP.jpg"
 ---
