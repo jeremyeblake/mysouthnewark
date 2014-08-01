@@ -10,9 +10,10 @@ post_smallimg: FlyingColorsFlyer4.jpg
 ---
 
 ## Flying Colors Public Preschool Enrolling Now
-![FlyingColorsFlyer.jpg](/public/images/FlyingColorsFlyer.jpg)
 
 The South Newark Civic Association encorages families to enroll their young children into the Flying Colors Public Preschool at 199 Union, Street, Newark, Ohio 43055.
+
+![FlyingColorsFlyer.jpg](/public/images/FlyingColorsFlyer.jpg)
 
 ![FlyerColorsFlyer2.jpg](/public/images/FlyerColorsFlyer2.jpg)
 ![FlyingColorsFlyer3.jpg](/public/images/FlyingColorsFlyer3.jpg)
