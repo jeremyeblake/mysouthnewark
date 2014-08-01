@@ -5,4 +5,4 @@ title: Community
 published: true
 ---
 
-- [http://newarkohio.net/]( "City of Newark")
+- [City of Newark](http://newarkohio.net/)
