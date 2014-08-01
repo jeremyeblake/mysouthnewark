@@ -6,3 +6,4 @@ member_img: harrington.jpg
 ---
 
 Steve Harrington is the newest member of the SNCA Board.
+![harrington.jpg](/public/images/harrington.jpg)
