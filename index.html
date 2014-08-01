@@ -29,15 +29,23 @@ layout: default
 
 	<div class="media slider">
 	
-	{% if post.carousel %}
+	
       <ul class="slides">
-      	 {% for slides in post.carousel %}
+      	
       	<li>
-       		<img src="{{ site.baseurl }}{{ slides.image }}">
+       		<img src="{{ site.baseurl }}/public/images/{{ post.post_largeimg01 }}">
       	</li>
-      	 {% endfor %}
+
+      	<li>
+       		<img src="{{ site.baseurl }}/public/images/{{ post.post_largeimg02 }}">
+      	</li>
+        
+        <li>
+       		<img src="{{ site.baseurl }}/public/images/{{ post.post_largeimg03 }}">
+      	</li>
+    
       </ul>
-      {% endif %}
+
 
     </div>
 
