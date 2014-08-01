@@ -55,7 +55,7 @@ layout: default
 				<span class="time">Date of event: {{ post.event_date }}</span>
 			{% endif %}
 			<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-			<p>{{ post.excerpt | strip_html }}</p>
+			<p>{{ post.content }}</p>
 
 		</div>
 	</article>
