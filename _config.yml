@@ -32,6 +32,27 @@ prose:
           help: "Once you have uploaded the image (400x300), write the name of the image. Convention : imagename.jpg"
           placeholder: "imagename.jpg"
           type: "text"
+      - name: "post_largeimg01"
+        field:
+          element: "text"
+          label: "First Large Post Image"
+          help: "Once you have uploaded the image (800x530), write the name of the image. Convention : imagename.jpg"
+          placeholder: "imagename.jpg"
+          type: "text"
+      - name: "post_largeimg02"
+        field:
+          element: "text"
+          label: "Second Large Post Image"
+          help: "Once you have uploaded the image (800x530), write the name of the image. Convention : imagename.jpg"
+          placeholder: "imagename.jpg"
+          type: "text"
+      - name: "post_largeimg03"
+        field:
+          element: "text"
+          label: "Third Large Post Image"
+          help: "Once you have uploaded the image (800x530), write the name of the image. Convention : imagename.jpg"
+          placeholder: "imagename.jpg"
+          type: "text"
     metadata:
     _posts/members:
       - name: "title"
