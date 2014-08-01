@@ -8,6 +8,20 @@ layout: default
 
 <div class="container">
 
+<div class="full">
+
+    {% for post in site.categories.resources %}
+
+        <div class="quarter">
+        	<h3 class="h2"> {{ post.title }}</h3>
+        	{{ post.content }}
+        </div>
+
+    {% endfor %}
+    
+</div>
+
+<!-- 
 <div class="half">
 <h3>Downloads</h3>
 <ul>
@@ -24,5 +38,5 @@ layout: default
         <li><a href="http://lickingcountychamber.chambermaster.com/jobs">Licking County Chamber</a></li>
         <li><a href="http://ohiomeansjobs.com/omj/">Ohio Means Jobs</a></li>
 
-</div>
+</div>-->
 </div>

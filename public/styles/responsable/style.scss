@@ -1,0 +1,609 @@
+// *
+// * Responsable Grid System
+// *
+// * Setting up a responsive grid based on Semantic GS
+// *
+// * @author Abban Dunne http://abandon.ie
+// * @author James Wilson http://jimmynotjim.com
+// * @version 1.0
+// */
+
+// ==========================================================
+// = Site Variables                                         =
+// ==========================================================
+
+// Grid options =
+$gutter_width: 40px; // Your gutter width
+$columns: 12; // The amount of columns you want
+$max_width: 100%; // Set a maximum width of the site
+
+// *
+// * Baseline
+// *
+// * Common settings for this:
+// *
+// * 100% for 16px font and 24px baseline.
+// *
+// * 75% for 12px font and 18px baseline.
+// *
+// *
+$baseline: 100%;
+
+// Font variables
+$body_color: #555;
+$heading_color: #444;
+
+$body_family: "Open Sans", "Helvetica Neue", Arial, Helvetica, Sans-Serif;
+$heading_family: "ff-tisa-web-pro", "Open Sans Condensed", "Helvetica Neue", Arial, Helvetica, Sans-Serif;
+
+// Link colors
+$link: #555;
+$link_hover: #333;
+
+// Select colors
+$select: #78aace;
+$select_color: #fff;
+
+// Color Pallette
+$red:#ce4141;
+$red_dark:#8e2323;
+$yellow:#f4c31e;
+$grey_light: #ddd;
+$grey_regular: #ccc;
+$grey_dark: #444;
+
+
+// The micro clearfix http://nicolasgallagher.com/micro-clearfix-hack
+@mixin clearfix(){
+	*zoom:1;
+
+	&:before,
+	&:after{
+	    content:"";
+	    display:table;
+	}
+	&:after{
+	    clear:both;
+	}
+}
+
+
+@mixin image-replacement {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -ms-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition;
+}
+
+
+// ==========================================================
+// = Import normalize baseline and grid                     =
+// ==========================================================
+
+@import "normalize";
+@import "baseline";
+@import "grid";
+
+
+// ==========================================================
+// = Your custom styles go here                             =
+// ==========================================================
+
+
+html{
+	position: relative;
+    min-height: 100%;
+   	min-width:320px;
+}
+
+
+body{
+	margin: 0 0 100px;
+	height:100%;
+}
+
+// ==========================================================
+// = Second round of imports                    			=
+// ==========================================================
+
+@import "slider";
+@import "utility";
+@import "header";
+
+
+
+// Logo and Donate
+
+.logo, .donate-button{
+	display:inline-block;
+	background:$red;
+}
+
+.logo{
+	@include image-replacement;
+	width:150px;
+	height:150px;
+	background:$red url('../images/logo.png') no-repeat center;
+	background-size:130px auto;
+	border-bottom:3px solid $red_dark;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:999;
+}
+
+.donate-button{
+	position:absolute;
+	right:0;
+	top:0;
+	width:95px;
+	height:95px;
+	color:#fff;
+	padding:35px 20px;
+
+	&:hover{
+		color:#fff;
+	}
+}
+
+
+footer#worlds_end{
+	border-top:2px solid $grey_light;
+	border-bottom:5px solid $red;
+	text-align:center;
+	padding:2em;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+}
+
+
+
+// Setting the stage. This is the grey bar at the top with a quick statement.
+
+.page-intro_wrap{
+	background:$grey_dark;
+	width:100%;
+
+	.page-intro_content{
+	padding:2em;
+	margin:0 180px;
+
+		h3{
+			color:#fff;
+			font-style:italic;
+			font-weight:400;
+
+		}
+	}
+}
+
+
+// Panels!
+
+.featured-panel, .content-panel, .content-panel_full{
+
+	.media{
+		@include column(5);
+		padding:0;
+		min-height:340px;
+		background:#eee;
+		background-size:cover;
+		background-position: top center;
+
+		img{
+			display:block;
+			width:100%;
+			height:auto;
+			background:#ccc;
+		}	
+	}
+
+	// This signup is only used in the featured panel
+	.volunteer-signup{
+		@include column(7);
+		float:right;
+		padding:0;
+
+		form{
+		margin-bottom:0;
+		}
+
+		.signup_giant{
+			width:100%;
+			height:80px;
+			margin-bottom:0;
+			border:0;
+			font-size:1.414em;
+			padding:1em 2em;
+			font-family:$heading_family;
+			font-style:italic;
+		}
+
+		.email-form_submit{
+			width:100%;
+			color:#888;
+			
+		}
+	}
+
+
+	// Wrapping content. You know.
+
+	.content_wrap, .content_wrap_nomedia{
+		padding:50px;
+		min-height: 340px;
+		border-top:2px solid $grey_light;
+		border-bottom:15px solid $yellow;
+		border-left:2px solid $grey_light;
+		position:relative;
+
+		&:after{
+			right:100%;
+			top: 50%;
+			border: solid transparent;
+			content: " ";
+			height: 0;
+			width: 0;
+			position: absolute;
+			pointer-events: none;
+			border-color: rgba(255, 255, 255, 0);
+			border-right-color: #fff;
+			border-width: 30px;
+			margin-top: -30px;
+			z-index:99;
+		}
+
+		.content{
+			height:100%;
+			overflow:hidden;
+			padding:20px;
+		}
+	}
+
+	.content_wrap{
+		@include column(7);
+	}
+
+	.content_wrap_nomedia{
+		@include column(12);
+	}
+}
+
+.featured-panel{
+	padding:0;
+	overflow:hidden;
+
+	.media{
+		overflow:hidden;
+		max-height:500px;
+
+
+		img{
+		height:auto;
+		}
+	}
+
+	.content{
+		min-height: 300px;
+	}
+}
+
+
+.content-panel, .content-panel_full{
+
+	.content_wrap{
+		border-left:2px solid $grey_light;
+	}
+}
+
+.content-panel_full{
+	@include column(12);
+	padding:0;
+}
+
+.content-panel{
+	@include column(6);
+	padding:0;
+}
+
+
+.content-panel_full:nth-child(even){
+
+	.content_wrap{
+		//border-right:2px solid $grey_light;
+
+		&:after{
+			left:100%;
+			top: 50%;
+			border: solid transparent;
+			content: " ";
+			height: 0;
+			width: 0;
+			position: absolute;
+			pointer-events: none;
+			border-color: rgba(0, 0, 0, 0);
+			border-left-color: #fff;
+			border-width: 30px;
+			margin-top: -30px;
+		}
+	}
+}
+
+.heritage{
+	.content-panel_full:nth-child(even){
+
+		.content_wrap{
+			border-right:2px solid $grey_light;
+		}
+		.media{
+			float:right;
+		}
+	}
+}
+
+
+// The actual news grid. Used on the landing and news pages.
+.news-grid{
+	@include column(12);
+}
+
+.news-panel_wrap{
+	@include column(4);
+	padding:20px;
+	margin:20px 0;
+
+	&:nth-of-type(3n+1){
+		//padding-left:0;
+	}
+
+	&:nth-of-type(3n+3){
+		//padding-right:0;
+	}
+
+	.news-panel{
+		border:2px solid $grey_light;
+
+
+		.media{
+			display:block;
+			width:100%;
+			min-height:180px;
+			background:#eee;
+			background-position: top center;
+		}
+
+		.content{
+			max-height: 380px;
+			min-height:380px;
+			overflow:hidden;
+			padding:20px;
+		}
+
+		.meta{
+			border-top:2px solid $grey_light;
+
+			.read{
+				display:inline-block;
+				padding:.318em 2em;
+				background:$grey_light;
+			}
+
+			.tags{
+				margin-left:.5em;
+				font-weight:300;
+			}
+		}
+	}
+
+}
+
+.section-thesis{
+	width:100%;
+	min-height:200px;
+	padding:50px;
+	border-bottom:1px solid $grey_light;
+}
+
+.paging{
+	display:block;
+	text-align:center;
+	overflow:hidden;
+	width:100%;
+	padding:1em 0;
+}
+
+
+.time{
+	font-family:$heading_family;
+	font-weight: 700;
+	font-style: italic;
+	display:block;
+	font-size:1.1em;
+}
+
+
+#map_canvas{
+	width:100%;
+	height:300px;
+}
+
+@media screen and (max-width: 940px){
+
+	.page-intro_wrap{
+
+		.page-intro_content{
+			padding:2em;
+			margin:30px 20px 0 20px;
+		}
+	}
+
+	.featured-panel, .content-panel, .content-panel_full{
+
+		.media{
+			@include column(12);
+			padding:0;
+			min-height:340px;
+			background:#eee;
+			background-size:cover;
+			background-position: top center;
+		}
+
+		.content_wrap{
+			@include column(12);
+		}
+
+		.volunteer-signup{
+			@include column(12);
+			padding:0;
+		}
+	}
+
+	.news-panel_wrap{
+		@include column(6);
+	}
+
+
+	.full{
+		.quarter{
+			@include column(12);
+		}
+	}
+
+}
+
+@media screen and (max-width: 640px){
+
+	body{
+		margin: 0 0 150px;
+	}
+
+	header#worlds_birth{
+
+		.nav-collapse{
+
+			.nav{
+				padding:0;
+				margin-left:0;
+				margin-right:0;
+				text-align: center;
+
+				li{
+					display:block;
+					padding:.5em 0;
+					border-bottom:2px solid $grey_light;
+
+				}
+			}
+		}
+
+		/*.js .nav-collapse {
+		  clip: rect(0 0 0 0);
+		  max-height: 0;
+		  position: absolute;
+		  display: block;
+		  overflow: hidden;
+		  zoom: 1;
+		}
+
+		.nav-collapse.opened {
+		  max-height: 9999px;
+		}
+
+		.disable-pointer-events {
+		  pointer-events: none !important;
+		}*/
+	}
+
+
+	.nav-toggle {
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		-o-user-select: none;
+		user-select: none;
+		display:block;
+		text-align: center;
+		padding:1em;
+		border-bottom: 2px solid $red;
+		font-size:1.118em;
+	}
+
+	.logo{
+		position: relative;
+		width:50%;
+		height:90px;
+	}
+
+	.donate-button{
+		width:50%;
+		background:none;
+		border-bottom:3px solid $red_dark;
+		color:$red;
+		text-align: center;
+
+		&:hover{
+			color:$red_dark;
+		}
+	}
+
+	.news-grid{
+		padding:0;
+
+		.news-panel_wrap{
+			@include column(12);
+			padding:0;
+		}
+	}
+
+	.content-wrap{
+		margin-bottom:350px;
+	}
+
+	.page-intro_wrap{
+		position:absolute;
+		bottom:0px;
+		height:350px;
+
+	}
+
+
+	footer#worlds_end{
+		border-top:2px solid $grey_light;
+		border-bottom:5px solid $red;
+		text-align:center;
+		padding:2.5em;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 150px;
+	}
+
+}
+
+@media screen and (min-width: 641px) {
+  /*.js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }*/
+}
+
+
+

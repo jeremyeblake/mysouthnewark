@@ -1,0 +1,36 @@
+// Header
+
+header#worlds_birth{
+	width:100%;
+	z-index:998;
+	border-top:5px solid $red;
+	background:#fff;
+
+	.nav-collapse{
+
+		.nav{
+			padding:2em;
+			margin-left:150px;
+			margin-right:100px;
+			margin-bottom:0;
+			display: block;
+
+			li{
+				display:inline-block;
+				padding:0 .618em;
+			}
+
+			.nav-fb{
+
+				a{
+					font-size:.918em;
+					color:#888;
+				}
+			}
+		}
+	}
+
+	p{
+		margin-left:150px;
+	}
+}
