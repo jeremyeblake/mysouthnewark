@@ -3,7 +3,7 @@ layout: blog
 category: news
 published: true
 title: Flying Colors Enrolling Now
-post_largeimg01: FlyingColorsFlyer3.jpg
+post_largeimg01: FlyerColorsFlyer2.jpg
 post_largeimg02: FlyingColorsFlyer3.jpg
 post_largeimg03: FlyingColorsFlyer4.jpg
 post_smallimg: FlyingColorsFlyer4.jpg
