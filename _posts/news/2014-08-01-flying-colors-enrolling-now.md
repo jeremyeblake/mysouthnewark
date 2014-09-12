@@ -6,7 +6,7 @@ title: Flying Colors Enrolling Now
 post_largeimg01: FlyingColorsFlyer4.jpg
 post_largeimg02: "FlyingColorsFlyer-flag.jpg"
 post_largeimg03: "FlyingColorsFlyer-enroll.jpg"
-post_smallimg: "FlyingColorsFlyer-enroll.jpg"
+post_smallimg: "FlyingColorsFlyer-flag.jpg"
 ---
 
 ## Flying Colors Public Preschool Enrolling Now.
