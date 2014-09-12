@@ -15,5 +15,6 @@ The South Newark Civic Association encorages families to enroll their young chil
 ![FlyingColorsFlyer.jpg](/public/images/FlyingColorsFlyer.jpg)
 
 ![FlyerColorsFlyer2.jpg](/public/images/FlyerColorsFlyer2.jpg)
-![FlyingColorsFlyer3.jpg](/public/images/FlyingColorsFlyer3.jpg)
+![FlyingColorsFlyer-flag.jpg](/public/images/FlyingColorsFlyer-flag.jpg)
+
 ![FlyingColorsFlyer4.jpg](/public/images/FlyingColorsFlyer4.jpg)
