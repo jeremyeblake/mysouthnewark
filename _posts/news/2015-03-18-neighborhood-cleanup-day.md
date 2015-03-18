@@ -15,6 +15,8 @@ post_largeimg03: cleanup03.jpg
 **When:** April 11th, 2015 at 8:30 AM
 **Where:** St. Johns United Church, 285 West National Dr.
 
-**B** If you're a senior citizen, a veteran, or a person with a disablity needing help with a spring cleaning project at your home please contact Linda Mossholder at (740) 522-6350 or email rsvp@mysouthnewark.org!![cleanup01.jpg](/public/images/cleanup01.jpg)
+**B** If you're a senior citizen, a veteran, or a person with a disablity needing help with a spring cleaning project at your home please contact Linda Mossholder at (740) 522-6350 or email rsvp@mysouthnewark.org
+
+![cleanup01.jpg](/public/images/cleanup01.jpg)
 ![cleanup02.jpg](/public/images/cleanup02.jpg)
 ![cleanup03.jpg](/public/images/cleanup03.jpg)
