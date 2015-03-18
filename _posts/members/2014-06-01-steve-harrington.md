@@ -1,6 +1,6 @@
 ---
 category: members
-published: true
+published: false
 title: Steve Harrington
 member_img: harrington3.jpg
 ---
