@@ -4,7 +4,7 @@ category: news
 published: true
 title: Neighborhood Cleanup Day
 event_date: "April 11th, 2015"
-post_smallimg: cleanup01.jpg
+post_smallimg: cleanup02.jpg
 post_largeimg01: cleanup01.jpg
 post_largeimg02: cleanup02.jpg
 post_largeimg03: cleanup03.jpg
