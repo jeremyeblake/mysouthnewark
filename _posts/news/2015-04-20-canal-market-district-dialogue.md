@@ -17,6 +17,6 @@ You are invited to participate in an open discussion about the Canal Market Dist
 
 Please RSVP with Bryn Bird at (740) 377-8886 or bryn@canalmarketdistrict.org
 
-http://www.canalmarketdistrict.org/
+[http://www.canalmarketdistrict.org/](http://www.canalmarketdistrict.org/)
 
 ![canal-market-district.jpg](/public/images/canal-market-district.jpg)
