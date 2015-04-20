@@ -1,9 +1,11 @@
 ---
 layout: blog
 category: news
-published: false
+published: true
 title: Canal Market District Dialogue
 event_date: "April 23, 2015 6 P.M. - 8 P.M."
+post_smallimg: "canal-market-district.jpg"
+post_largeimg01: "canal-market-district.jpg"
 ---
 
 Where: Newark Public Library (Room A)
