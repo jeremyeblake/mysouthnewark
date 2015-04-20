@@ -6,6 +6,8 @@ title: Canal Market District Dialogue
 event_date: "April 23, 2015 6 P.M. - 8 P.M."
 post_smallimg: "canal-market-district.jpg"
 post_largeimg01: "canal-market-district.jpg"
+post_largeimg02: "canal-market-district.jpg"
+post_largeimg03: "canal-market-district.jpg"
 ---
 
 Where: Newark Public Library (Room A)
@@ -18,4 +20,3 @@ Please RSVP with Bryn Bird at (740) 377-8886 or bryn@canalmarketdistrict.org
 http://www.canalmarketdistrict.org/
 
 ![canal-market-district.jpg](/public/images/canal-market-district.jpg)
-
