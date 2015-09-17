@@ -10,9 +10,6 @@ title: "Spookytown Bash "
 ---
 
 
-
-
-
 A fun community event to take place this coming October 31st. Everyone in Licking County is welcome to attend. Costumes encouraged. Bring your chair.
 
 [Like us on Facebook to stay informed](https://www.facebook.com/spookytownbash)
