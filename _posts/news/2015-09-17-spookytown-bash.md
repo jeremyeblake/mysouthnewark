@@ -3,11 +3,12 @@ layout: blog
 event_date: "October 31, 2015"
 post_smallimg: "msn-spooky-small.jpg"
 post_largeimg01: "msn-spooky-01.jpg"
-post_largeimg02: ""
-post_largeimg03: ""
+post_largeimg02: "msn-spooky-01.jpg"
+post_largeimg03: "msn-spooky-01.jpg"
 published: true
 title: "Spookytown Bash "
 ---
+
 
 
 
