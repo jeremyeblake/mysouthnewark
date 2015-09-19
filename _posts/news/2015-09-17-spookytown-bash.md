@@ -1,5 +1,6 @@
 ---
 layout: blog
+category: news
 event_date: "October 31, 2015"
 post_smallimg: "msn-spooky-small.jpg"
 post_largeimg01: "msn-spooky-01.jpg"
