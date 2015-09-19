@@ -6,7 +6,7 @@ post_largeimg01: "msn-spooky-01.jpg"
 post_largeimg02: "msn-spooky-01.jpg"
 post_largeimg03: "msn-spooky-01.jpg"
 published: true
-title: "Spookytown Bash "
+title: Spookytown Bash
 ---
 
 
