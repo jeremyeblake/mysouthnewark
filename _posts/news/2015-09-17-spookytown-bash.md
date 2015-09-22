@@ -3,12 +3,13 @@ layout: blog
 category: news
 event_date: "October 31, 2015"
 post_smallimg: "msn-spooky-small.jpg"
-post_largeimg01: "msn-spooky-01.jpg"
+post_largeimg01: "sponsor-denison.jpg"
 post_largeimg02: "sponsor-denison.jpg"
-post_largeimg03: "msn-spooky-01.jpg"
+post_largeimg03: "sponsor-denison.jpg"
 published: true
 title: Spookytown Bash
 ---
+
 
 
 ### A fun community event to take place this coming October 31st. 
