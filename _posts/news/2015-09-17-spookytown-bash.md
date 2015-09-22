@@ -3,7 +3,7 @@ layout: blog
 category: news
 event_date: "October 31, 2015"
 post_smallimg: "msn-spooky-small.jpg"
-post_largeimg01: "sponsor-denison.jpg"
+post_largeimg01: "msn-spooky.jpg"
 post_largeimg02: "sponsor-denison.jpg"
 post_largeimg03: "sponsor-denison.jpg"
 published: true
