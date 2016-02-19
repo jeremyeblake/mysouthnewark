@@ -5,10 +5,11 @@ event_date: "April 9, 2016"
 post_smallimg: cleanup02.jpg
 post_largeimg01: cleanup02.jpg
 post_largeimg02: cleanup02.jpg
-post_largeimg03: ""
+post_largeimg03: cleanup02.jpg
 published: true
 title: Neighborhood Cleanup
 ---
+
 
 
 ### Save the date: April 9, 2016
