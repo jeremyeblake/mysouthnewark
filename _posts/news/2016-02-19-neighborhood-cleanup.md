@@ -6,7 +6,7 @@ post_smallimg: cleanup02.jpg
 post_largeimg01: cleanup02.jpg
 post_largeimg02: cleanup02.jpg
 post_largeimg03: cleanup02.jpg
-published: false
+published: true
 title: Neighborhood Cleanup
 ---
 
@@ -18,5 +18,3 @@ title: Neighborhood Cleanup
 In spite of the snowy weather, community members and Denison Students turned out for the annual spring clean-up.  This year we added two new areas to our clean up efforts these included Pine Street and Rail Road Street.  In addition, more than 50 discarded tires were removed from the neighborhood.  Once again our thanks go out to the members of St. John's for hosting this event and for providing lunch for our volunteers.
 
 ![IMGP3340.JPG]({{site.baseurl}}/public/images/IMGP3340.JPG)
-
-
