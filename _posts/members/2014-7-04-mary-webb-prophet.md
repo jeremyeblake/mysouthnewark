@@ -2,7 +2,7 @@
 category: members
 layout: blog
 title: Mary Webb Prophet
-published: true
+published: false
 member_img: "snca-mary.jpg"
 heritage_img: "snca-mary.jpg"
 ---
