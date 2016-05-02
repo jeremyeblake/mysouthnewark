@@ -6,7 +6,7 @@ post_smallimg: cleanup02.jpg
 post_largeimg01: cleanup02.jpg
 post_largeimg02: cleanup02.jpg
 post_largeimg03: cleanup02.jpg
-published: true
+published: false
 title: Neighborhood Cleanup
 ---
 
