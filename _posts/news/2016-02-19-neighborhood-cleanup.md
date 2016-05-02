@@ -12,9 +12,11 @@ title: Neighborhood Cleanup
 
 
 
-### Save the date: April 9, 2016
+### When: April 9, 2016
 ### Where: St John's Church ([285 W National Dr](https://www.google.com/maps/place/285+W+National+Dr,+Newark,+OH+43055/@40.044527,-82.406612,17z/data=!3m1!4b1!4m2!3m1!1s0x883817ec02482631:0xb8b269f2a57333d9))
 
-Volunteers are asked to arrive at 8:30 a.m. Clean up assignments will be given to teams of volunteers. Each team will go to an assigned project, then lunch will be served to volunteers at noon. Watch for additional details.
+In spite of the snowy weather, community members and Denison Students turned out for the annual spring clean-up.  This year we added two new areas to our clean up efforts these included Pine Street and Rail Road Street.  In addition, more than 50 discarded tires were removed from the neighborhood.  Once again our thanks go out to the members of St. John's for hosting this event and for providing lunch for our volunteers.
 
-![cleanup02.jpg]({{site.baseurl}}/public/images/cleanup02.jpg)
+![IMGP3340.JPG]({{site.baseurl}}/public/images/IMGP3340.JPG)
+
+
