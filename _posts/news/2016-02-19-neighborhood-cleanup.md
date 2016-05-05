@@ -2,7 +2,7 @@
 layout: blog
 category: news
 event_date: "April 9, 2016"
-post_smallimg: cleanup02.jpg
+post_smallimg: IMGP3340.JPG
 post_largeimg01: cleanup02.jpg
 post_largeimg02: cleanup02.jpg
 post_largeimg03: cleanup02.jpg
