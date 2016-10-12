@@ -1,6 +1,7 @@
 ---
 published: true
 ---
+![SouthNewarkMugsB.jpg]({{site.baseurl}}/_posts/news/SouthNewarkMugsB.jpg)
 
 
 ###  OCTOBER EVENTS
