@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## October Events at the Meeting House, 429 Ohio Street
 
