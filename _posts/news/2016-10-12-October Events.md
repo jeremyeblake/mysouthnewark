@@ -1,7 +1,10 @@
 ---
 published: true
 ---
-## October Events at the Meeting House, 429 Ohio Street
+
+
+### October Events
+### Where SNCA Meeting House, 429 Ohio Street
 
 -October 13th, Habitat for Humanity Home Repair Orientation, 6:00 - 8:00 PM
 -October 20th, Open House Hours, 
