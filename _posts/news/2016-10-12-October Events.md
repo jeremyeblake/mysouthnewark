@@ -8,9 +8,6 @@ post_largeimg01: SouthNewarkMugsB.jpg
 post_largeimg02: SouthNewarkMugsB.jpg
 post_largeimg03: SouthNewarkMugsB.jpg
 ---
-![SouthNewarkMugsB.jpg]({{site.baseurl}}/_posts/news/SouthNewarkMugsB.jpg)
-
-
 ###  OCTOBER EVENTS
 ### Where SNCA Meeting House, 429 Ohio Street
 
