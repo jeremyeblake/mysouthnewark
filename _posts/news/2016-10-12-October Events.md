@@ -1,5 +1,12 @@
 ---
 published: true
+layout: blog
+category: news
+event_date: 'October 10, 2016'
+post_smallimg: SouthNewarkMugsB.jpg
+post_largeimg01: SouthNewarkMugsB.jpg
+post_largeimg02: SouthNewarkMugsB.jpg
+post_largeimg03: SouthNewarkMugsB.jpg
 ---
 ![SouthNewarkMugsB.jpg]({{site.baseurl}}/_posts/news/SouthNewarkMugsB.jpg)
 
