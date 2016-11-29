@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: blog
 category: news
 event_date: 'December 20, 2016'
