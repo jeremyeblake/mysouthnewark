@@ -1,5 +1,12 @@
 ---
 published: false
+layout: blog
+category: news
+event_date: 'December 20, 2016'
+post_smallimg: SNCA-Caroling.jpg
+post_largeimg01: SNCA-Caroling.jpg
+post_largeimg02: SNCA-Caroling.jpg
+post_largeimg03: SNCA-Caroling.jpg
 ---
 ## Christmas Caroling
 
@@ -14,4 +21,3 @@ Join us to spread the holiday spirit and joy by the use of songs. This will be a
 
 
 ![SNCA-Caroling.jpg]({{site.baseurl}}/_posts/news/SNCA-Caroling.jpg)
-
