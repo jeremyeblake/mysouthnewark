@@ -1,4 +1,17 @@
 ---
 published: false
 ---
+## Christmas Caroling
 
+Tuesday, December 20th
+5:30 PM
+
+South Newark Civic Association Meeting House
+429 Ohio Street, Newark, Ohio
+
+Join us to spread the holiday spirit and joy by the use of songs. This will be a fun evening of hot chocolate, singing and cookies. All are welcome to join us.
+
+
+
+
+![SNCA-Caroling.jpg]({{site.baseurl}}/SNCA-Caroling.jpg)
